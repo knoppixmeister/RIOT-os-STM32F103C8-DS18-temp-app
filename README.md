@@ -1,1 +1,3 @@
-# RIOT-os-STM32F103C8-DS18-temp-app
+# RIOT os STM32F103C8 (bluepill) DS18 temperature measure app
+
+

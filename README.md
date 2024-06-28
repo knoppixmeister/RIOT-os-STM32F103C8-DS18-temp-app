@@ -16,3 +16,4 @@ make BOARD=bluepill-stm32f103c8 flash
 
 Enjoy!
 
+Based on code from: https://github.com/RIOT-OS/RIOT/blob/master/tests/drivers/ds18/main.c

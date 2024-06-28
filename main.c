@@ -58,6 +58,8 @@ int test(int argc, char **argv)
         int16_t temperature;
 
         if (ds18_get_temperature(&dev, &temperature) == DS18_OK) {
+            temperature *= 0.8; // without this shows not correct temp.
+
             bool negative = (temperature < 0);
             if (negative) {
                 temperature = -temperature;
